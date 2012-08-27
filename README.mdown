@@ -1,0 +1,30 @@
+#Core Image Face Detection and Auto-Enhance
+
+<img src="https://raw.github.com/TCLee/TCFaceDetection/master/Screenshot.jpg" alt="Screenshot" style="margin-top:1em;" />
+
+## Description
+This sample demonstrates the more advanced features of Core Image:
+
+**Face Detection**
+
+* Find the size and position of a face in a photo.
+* Find the position of the eyes and mouth on a face.
+
+**Auto-Enhance**
+
+* Automatically improves quality of a photo of a person. 
+* Improves skin tones, saturation, contrast and shadows. 
+* Performs red eye removal.
+
+## Build Requirements
+* Xcode 4.4 or later
+* iOS 5.0 SDK or later
+
+## Runtime Requirements
+* iOS 5.0 or later
+
+## Credits
+* MBProgressHUD (https://github.com/jdg/MBProgressHUD)
+* All images are copyrighted by their respective owners.
+
+*Copyright (C) 2012 Lee Tze Cheun. All rights reserved.*

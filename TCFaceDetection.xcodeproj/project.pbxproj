@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8122ECD315E5E4BE005938C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122ECD215E5E4BE005938C2 /* UIKit.framework */; };
+		8122ECD515E5E4BE005938C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122ECD415E5E4BE005938C2 /* Foundation.framework */; };
+		8122ECD715E5E4BE005938C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122ECD615E5E4BE005938C2 /* CoreGraphics.framework */; };
+		8122ECDD15E5E4BE005938C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8122ECDB15E5E4BE005938C2 /* InfoPlist.strings */; };
+		8122ECDF15E5E4BE005938C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8122ECDE15E5E4BE005938C2 /* main.m */; };
+		8122ECE315E5E4BE005938C2 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8122ECE215E5E4BE005938C2 /* TCAppDelegate.m */; };
+		8122ECE615E5E4BE005938C2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8122ECE415E5E4BE005938C2 /* MainStoryboard.storyboard */; };
+		8122ECE915E5E4BE005938C2 /* TCFaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8122ECE815E5E4BE005938C2 /* TCFaceDetectionViewController.m */; };
+		8122ECEB15E5E4BE005938C2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8122ECEA15E5E4BE005938C2 /* first.png */; };
+		8122ECED15E5E4BE005938C2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8122ECEC15E5E4BE005938C2 /* first@2x.png */; };
+		8122ECF215E5E4BE005938C2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8122ECF115E5E4BE005938C2 /* second.png */; };
+		8122ECF415E5E4BE005938C2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8122ECF315E5E4BE005938C2 /* second@2x.png */; };
+		8122ED0015E5F76D005938C2 /* TCAutoEnhanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8122ECFF15E5F76D005938C2 /* TCAutoEnhanceViewController.m */; };
+		8122ED0215E5F874005938C2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122ED0115E5F874005938C2 /* CoreImage.framework */; };
+		8122ED0415E5F886005938C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122ED0315E5F886005938C2 /* QuartzCore.framework */; };
+		815194F615E76F1300091C75 /* sample_autoenhance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815194F515E76F1300091C75 /* sample_autoenhance.jpg */; };
+		815194FE15E781D100091C75 /* sample_face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815194FD15E781D100091C75 /* sample_face.jpg */; };
+		81FFF70F15EB0C030062CC44 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FFF70E15EB0C030062CC44 /* MBProgressHUD.m */; };
+		81FFF71A15EB481B0062CC44 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FFF71815EB481B0062CC44 /* Icon.png */; };
+		81FFF71B15EB481B0062CC44 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FFF71915EB481B0062CC44 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8122ECCE15E5E4BE005938C2 /* TCFaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCFaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8122ECD215E5E4BE005938C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8122ECD415E5E4BE005938C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8122ECD615E5E4BE005938C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8122ECDA15E5E4BE005938C2 /* TCFaceDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCFaceDetection-Info.plist"; sourceTree = "<group>"; };
+		8122ECDC15E5E4BE005938C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8122ECDE15E5E4BE005938C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8122ECE015E5E4BE005938C2 /* TCFaceDetection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCFaceDetection-Prefix.pch"; sourceTree = "<group>"; };
+		8122ECE115E5E4BE005938C2 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		8122ECE215E5E4BE005938C2 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		8122ECE515E5E4BE005938C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8122ECE715E5E4BE005938C2 /* TCFaceDetectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCFaceDetectionViewController.h; sourceTree = "<group>"; };
+		8122ECE815E5E4BE005938C2 /* TCFaceDetectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCFaceDetectionViewController.m; sourceTree = "<group>"; };
+		8122ECEA15E5E4BE005938C2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8122ECEC15E5E4BE005938C2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8122ECEE15E5E4BE005938C2 /* TCAutoEnhanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAutoEnhanceViewController.h; sourceTree = "<group>"; };
+		8122ECF115E5E4BE005938C2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8122ECF315E5E4BE005938C2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8122ECFF15E5F76D005938C2 /* TCAutoEnhanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAutoEnhanceViewController.m; sourceTree = "<group>"; };
+		8122ED0115E5F874005938C2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8122ED0315E5F886005938C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		815194F515E76F1300091C75 /* sample_autoenhance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_autoenhance.jpg; sourceTree = "<group>"; };
+		815194FD15E781D100091C75 /* sample_face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_face.jpg; sourceTree = "<group>"; };
+		81FFF70D15EB0C030062CC44 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		81FFF70E15EB0C030062CC44 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		81FFF71815EB481B0062CC44 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		81FFF71915EB481B0062CC44 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8122ECCB15E5E4BE005938C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8122ED0415E5F886005938C2 /* QuartzCore.framework in Frameworks */,
+				8122ED0215E5F874005938C2 /* CoreImage.framework in Frameworks */,
+				8122ECD315E5E4BE005938C2 /* UIKit.framework in Frameworks */,
+				8122ECD515E5E4BE005938C2 /* Foundation.framework in Frameworks */,
+				8122ECD715E5E4BE005938C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8122ECC315E5E4BE005938C2 = {
+			isa = PBXGroup;
+			children = (
+				8122ECD815E5E4BE005938C2 /* TCFaceDetection */,
+				81FFF70C15EB0C030062CC44 /* MBProgressHUD */,
+				8122ECD115E5E4BE005938C2 /* Frameworks */,
+				8122ECCF15E5E4BE005938C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8122ECCF15E5E4BE005938C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECCE15E5E4BE005938C2 /* TCFaceDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8122ECD115E5E4BE005938C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8122ED0315E5F886005938C2 /* QuartzCore.framework */,
+				8122ED0115E5F874005938C2 /* CoreImage.framework */,
+				8122ECD215E5E4BE005938C2 /* UIKit.framework */,
+				8122ECD415E5E4BE005938C2 /* Foundation.framework */,
+				8122ECD615E5E4BE005938C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8122ECD815E5E4BE005938C2 /* TCFaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECFE15E5EB5A005938C2 /* AppDelegate */,
+				8122ECFD15E5EB48005938C2 /* Controllers */,
+				8122ECFA15E5EADD005938C2 /* Resources */,
+				8122ECD915E5E4BE005938C2 /* Supporting Files */,
+			);
+			path = TCFaceDetection;
+			sourceTree = "<group>";
+		};
+		8122ECD915E5E4BE005938C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECDA15E5E4BE005938C2 /* TCFaceDetection-Info.plist */,
+				8122ECDB15E5E4BE005938C2 /* InfoPlist.strings */,
+				8122ECDE15E5E4BE005938C2 /* main.m */,
+				8122ECE015E5E4BE005938C2 /* TCFaceDetection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8122ECFA15E5EADD005938C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECFC15E5EAE9005938C2 /* Storyboards */,
+				8122ECFB15E5EAE4005938C2 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8122ECFB15E5EAE4005938C2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				81FFF70A15EB09E90062CC44 /* Icons */,
+				815194FD15E781D100091C75 /* sample_face.jpg */,
+				815194F515E76F1300091C75 /* sample_autoenhance.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8122ECFC15E5EAE9005938C2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECE415E5E4BE005938C2 /* MainStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		8122ECFD15E5EB48005938C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECE715E5E4BE005938C2 /* TCFaceDetectionViewController.h */,
+				8122ECE815E5E4BE005938C2 /* TCFaceDetectionViewController.m */,
+				8122ECEE15E5E4BE005938C2 /* TCAutoEnhanceViewController.h */,
+				8122ECFF15E5F76D005938C2 /* TCAutoEnhanceViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8122ECFE15E5EB5A005938C2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8122ECE115E5E4BE005938C2 /* TCAppDelegate.h */,
+				8122ECE215E5E4BE005938C2 /* TCAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		81FFF70A15EB09E90062CC44 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				81FFF71815EB481B0062CC44 /* Icon.png */,
+				81FFF71915EB481B0062CC44 /* Icon@2x.png */,
+				8122ECEA15E5E4BE005938C2 /* first.png */,
+				8122ECEC15E5E4BE005938C2 /* first@2x.png */,
+				8122ECF115E5E4BE005938C2 /* second.png */,
+				8122ECF315E5E4BE005938C2 /* second@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		81FFF70C15EB0C030062CC44 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				81FFF70D15EB0C030062CC44 /* MBProgressHUD.h */,
+				81FFF70E15EB0C030062CC44 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8122ECCD15E5E4BE005938C2 /* TCFaceDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8122ECF715E5E4BE005938C2 /* Build configuration list for PBXNativeTarget "TCFaceDetection" */;
+			buildPhases = (
+				8122ECCA15E5E4BE005938C2 /* Sources */,
+				8122ECCB15E5E4BE005938C2 /* Frameworks */,
+				8122ECCC15E5E4BE005938C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCFaceDetection;
+			productName = TCFaceDetection;
+			productReference = 8122ECCE15E5E4BE005938C2 /* TCFaceDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8122ECC515E5E4BE005938C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Lee Tze Cheun";
+			};
+			buildConfigurationList = 8122ECC815E5E4BE005938C2 /* Build configuration list for PBXProject "TCFaceDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8122ECC315E5E4BE005938C2;
+			productRefGroup = 8122ECCF15E5E4BE005938C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8122ECCD15E5E4BE005938C2 /* TCFaceDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8122ECCC15E5E4BE005938C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8122ECDD15E5E4BE005938C2 /* InfoPlist.strings in Resources */,
+				8122ECE615E5E4BE005938C2 /* MainStoryboard.storyboard in Resources */,
+				8122ECEB15E5E4BE005938C2 /* first.png in Resources */,
+				8122ECED15E5E4BE005938C2 /* first@2x.png in Resources */,
+				8122ECF215E5E4BE005938C2 /* second.png in Resources */,
+				8122ECF415E5E4BE005938C2 /* second@2x.png in Resources */,
+				815194F615E76F1300091C75 /* sample_autoenhance.jpg in Resources */,
+				815194FE15E781D100091C75 /* sample_face.jpg in Resources */,
+				81FFF71A15EB481B0062CC44 /* Icon.png in Resources */,
+				81FFF71B15EB481B0062CC44 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8122ECCA15E5E4BE005938C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8122ECDF15E5E4BE005938C2 /* main.m in Sources */,
+				8122ECE315E5E4BE005938C2 /* TCAppDelegate.m in Sources */,
+				8122ECE915E5E4BE005938C2 /* TCFaceDetectionViewController.m in Sources */,
+				8122ED0015E5F76D005938C2 /* TCAutoEnhanceViewController.m in Sources */,
+				81FFF70F15EB0C030062CC44 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8122ECDB15E5E4BE005938C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8122ECDC15E5E4BE005938C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8122ECE415E5E4BE005938C2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8122ECE515E5E4BE005938C2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8122ECF515E5E4BE005938C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8122ECF615E5E4BE005938C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8122ECF815E5E4BE005938C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCFaceDetection/TCFaceDetection-Prefix.pch";
+				INFOPLIST_FILE = "TCFaceDetection/TCFaceDetection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8122ECF915E5E4BE005938C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCFaceDetection/TCFaceDetection-Prefix.pch";
+				INFOPLIST_FILE = "TCFaceDetection/TCFaceDetection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8122ECC815E5E4BE005938C2 /* Build configuration list for PBXProject "TCFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8122ECF515E5E4BE005938C2 /* Debug */,
+				8122ECF615E5E4BE005938C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8122ECF715E5E4BE005938C2 /* Build configuration list for PBXNativeTarget "TCFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8122ECF815E5E4BE005938C2 /* Debug */,
+				8122ECF915E5E4BE005938C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8122ECC515E5E4BE005938C2 /* Project object */;
+}
